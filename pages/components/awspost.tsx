@@ -22,7 +22,7 @@ export default async function aws(file:File){
         headers: {
             'Content-Type': file.type,
     }})
-    return "success";
+    return ("success");
 } catch (err) {
     console.log(err);
 }

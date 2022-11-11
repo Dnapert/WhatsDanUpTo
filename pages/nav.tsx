@@ -14,6 +14,7 @@ export default function Nav() {
                 Projects
             </Link>
             <Link href='/awsSend' className='p-2'>Admin</Link>
+            <Link href='/toyPage' className='p-2'>Toys</Link>
         </div>
         </div>
     )
